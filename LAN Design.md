@@ -88,3 +88,4 @@ Since one core switch is a single point of failure, we add two core switches.
 
 ### Network capacity Requirements
 ![[LAN Design-1793482969532.webp|622]]
+
