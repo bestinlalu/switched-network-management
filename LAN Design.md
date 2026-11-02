@@ -1,5 +1,5 @@
 ---
-project: SNM Lab Examp
+project: SNM Lab Exam
 ---
 
 # **Step 1:** "who talks to whom" matrix.
