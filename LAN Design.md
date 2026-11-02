@@ -141,4 +141,4 @@ When a link or router fails:
 
 ![[Steps given by ChatGPT-1793662398642.webp|585]]
 
-![[Steps given by ChatGPT-1793662428092.webp]]
+![[Steps given by ChatGPT-1793662428092.webp|587]]
