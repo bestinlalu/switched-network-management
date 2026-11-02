@@ -97,7 +97,7 @@ Since one core switch is a single point of failure, we add two core switches.
 
 <mark style="background:#ff4d4f">The ACLs will be present in the access switches. This is because in a collapsed core and distribution architecture, all the user traffic moves through the core switches and keeping ACLs at the access switches prevents all unauthorized traffic to reach the core and congest it.</mark>
 
-We place the ACLs on the collapsed-core switches because they provide the Layer 3 gateways for all four VLANs. All inter-VLAN traffic passes through these gateways. This lets us apply the security policies at a central point. It reduces configuration work and makes maintenance easier. The disadvantage is that denied traffic still uses the uplinks to reach the core. Also, the core SVI ACLs cannot block traffic that stays within one VLAN. We use access-layer filtering only when we need this additional control.
+<mark style="background:#d4b106">We place the ACLs on the collapsed-core switches because they provide the Layer 3 gateways for all four VLANs. All inter-VLAN traffic passes through these gateways. This lets us apply the security policies at a central point. It reduces configuration work and makes maintenance easier. The disadvantage is that denied traffic still uses the uplinks to reach the core. Also, the core SVI ACLs cannot block traffic that stays within one VLAN. We use access-layer filtering only when we need this additional control.</mark>
 
 ## 3. Tradeoffs: Access switch vs. collapsed core
 
