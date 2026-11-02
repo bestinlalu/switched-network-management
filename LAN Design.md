@@ -92,4 +92,4 @@ Since one core switch is a single point of failure, we add two core switches.
 
 # Where should the ACLs be?
 
-The ACLs be 
+The ACLs be present in the
