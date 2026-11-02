@@ -130,8 +130,6 @@ When a link or router fails:
 - Edge1's link goes down. The distance-1 route is withdrawn. The core installs the distance-5 route, and all traffic moves to Edge2.
 - When Edge1 returns, the distance-1 route wins again and traffic moves back.
 
-How to test: ping the Internet target from a test host, disconnect the Edge1 link, and watch for the number of lost pings before it recovers. Reconnect and confirm the path moves back.
-
 Trade-offs:
 
 - Predictable and easy to demonstrate, so troubleshooting is simple.
