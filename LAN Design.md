@@ -136,3 +136,9 @@ When a link or router fails:
 - Predictable and easy to demonstrate, so troubleshooting is simple.
 - The Edge2 link and router sit idle. It does not meet the "share the load" idea for this path. If your design requires use of redundant links where possible, state why you accepted this.
 	- The core must detect the failure. This works for a link that goes down. If Edge1 stops forwarding while the link stays up, the static route stays in the table. Add route tracking (IP SLA with `track`) or BFD, or accept the gap and document it.
+
+## Logical Design of network
+
+![[Steps given by ChatGPT-1793662398642.webp|585]]
+
+![[Steps given by ChatGPT-1793662428092.webp]]
