@@ -1,1 +1,4 @@
+---
+source:
+---
 # switched-network-management
