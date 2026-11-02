@@ -95,7 +95,7 @@ Since one core switch is a single point of failure, we add two core switches.
 
 # Where should the ACLs be?
 
-The ACLs will be present in the access switches. This is because in a collapsed core and distribution architecture, all the user traffic moves through the core switches and keeping ACLs at the access switches prevents all unauthorized traffic to reach the core and congest it.
+<mark style="background:#ff4d4f">The ACLs will be present in the access switches. This is because in a collapsed core and distribution architecture, all the user traffic moves through the core switches and keeping ACLs at the access switches prevents all unauthorized traffic to reach the core and congest it.</mark>
 
 ## 3. Tradeoffs: Access switch vs. collapsed core
 
