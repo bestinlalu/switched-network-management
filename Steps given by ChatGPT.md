@@ -25,3 +25,4 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
 ## Logical Design of network
 ![[Steps given by ChatGPT-1793662398642.webp|585]]
 
+![[Steps given by ChatGPT-1793662428092.webp]]
