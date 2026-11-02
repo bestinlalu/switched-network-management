@@ -99,13 +99,13 @@ Since one core switch is a single point of failure, we add two core switches.
 
 ## 3. Tradeoffs: Access switch vs. collapsed core
 
-|Factor|ACL at access switch|ACL at collapsed core|
-|---|---|---|
-|Traffic filtering|Drops packets close to the source|Drops packets at the routing boundary|
-|Configuration|Must apply policy to relevant access ports or VLANs|Can use one ACL attachment per SVI|
-|Management|More places to maintain policy|Easier to maintain centrally|
-|Uplink bandwidth|Saves bandwidth by dropping unwanted traffic early|Denied packets still use the access-to-core uplink|
-|Same-VLAN traffic|Can filter it with PACLs or suitable VLAN controls|SVI ACL cannot filter locally switched traffic|
-|Hardware resources|Uses ACL resources on access switches|Uses ACL resources on core switches|
-|Failure impact|A configuration error is often limited to one access switch|A configuration error can affect a whole VLAN|
-|Troubleshooting|More distributed rules to check|Fewer enforcement points to inspect|
+| Factor             | ACL at access switch                                        | ACL at collapsed core                              |
+| ------------------ | ----------------------------------------------------------- | -------------------------------------------------- |
+| Traffic filtering  | Drops packets close to the source                           | Drops packets at the routing boundary              |
+| Configuration      | Must apply policy to relevant access ports or VLANs         | Can use one ACL attachment per SVI                 |
+| Management         | More places to maintain policy                              | Easier to maintain centrally                       |
+| Uplink bandwidth   | Saves bandwidth by dropping unwanted traffic early          | Denied packets still use the access-to-core uplink |
+| Same-VLAN traffic  | Can filter it with PACLs or suitable VLAN controls          | SVI ACL cannot filter locally switched traffic     |
+| Hardware resources | Uses ACL resources on access switches                       | Uses ACL resources on core switches                |
+| Failure impact     | A configuration error is often limited to one access switch | A configuration error can affect a whole VLAN      |
+| Troubleshooting    | More distributed rules to check                             | Fewer enforcement points to inspect                |
