@@ -21,3 +21,7 @@ Step 8. Do the physical design. Place the devices. Count the ports and select th
 Step 9. Write the tests. Write at least one test for each requirement. Example: "From a Guest host, ping a Faculty host. The ping must fail." Use the tests to prove the design in the lab. 
 
 Step 10. Write the documents and plan for growth. Write the diagram, the address plan, and the rules. Write all assumptions. Calculate when the design needs more hardware.
+
+## Logical Design of network
+![[Steps given by ChatGPT-1793662398642.webp|585]]
+
