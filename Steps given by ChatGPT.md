@@ -1,5 +1,5 @@
 ---
-project:
+project: SNM Lab Exam
 ---
 Step 1. Define the scope and constraints. Write what the project includes and excludes. Write the budget, the schedule, and the staff available. List the devices and links that already exist. 
 
