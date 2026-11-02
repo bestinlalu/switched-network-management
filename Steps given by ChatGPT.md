@@ -1,3 +1,6 @@
+---
+project:
+---
 Step 1. Define the scope and constraints. Write what the project includes and excludes. Write the budget, the schedule, and the staff available. List the devices and links that already exist. 
 
 Step 2. Write the requirements as targets. Write each business goal as a sentence. Change each goal into a target with a number or a test. Use these groups: performance, security, scalability, availability, manageability. Example: change "fast" to "4 Gbps (gigabits per second) to the Server Room". 
