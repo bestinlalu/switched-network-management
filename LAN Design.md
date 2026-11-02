@@ -130,7 +130,7 @@ When a link or router fails:
 - Edge1's link goes down. The distance-1 route is withdrawn. The core installs the distance-5 route, and all traffic moves to Edge2.
 - When Edge1 returns, the distance-1 route wins again and traffic moves back.
 
-Trade-offs:
+### Trade-offs:
 
 - Predictable and easy to demonstrate, so troubleshooting is simple.
 - The Edge2 link and router sit idle. It does not meet the "share the load" idea for this path. If your design requires use of redundant links where possible, state why you accepted this.
