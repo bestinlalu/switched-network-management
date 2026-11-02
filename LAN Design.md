@@ -112,7 +112,7 @@ Since one core switch is a single point of failure, we add two core switches.
 | Failure impact     | A configuration error is often limited to one access switch | A configuration error can affect a whole VLAN      |
 | Troubleshooting    | More distributed rules to check                             | Fewer enforcement points to inspect                |
 
-## Floating static route)
+## Floating static route
 
 Configuration on Core1:
 
