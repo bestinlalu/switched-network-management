@@ -111,3 +111,29 @@ Since one core switch is a single point of failure, we add two core switches.
 | Hardware resources | Uses ACL resources on access switches                       | Uses ACL resources on core switches                |
 | Failure impact     | A configuration error is often limited to one access switch | A configuration error can affect a whole VLAN      |
 | Troubleshooting    | More distributed rules to check                             | Fewer enforcement points to inspect                |
+
+## Case 2: primary and backup (floating static route)
+
+Configuration on Core1:
+
+```
+ip route 0.0.0.0 0.0.0.0 172.31.0.1        ← distance 1 (default for static)
+ip route 0.0.0.0 0.0.0.0 172.31.0.3 5      ← distance 5, backup
+```
+
+The core installs only the route with the lowest distance. The backup stays in the configuration but not in the routing table.
+
+How a packet moves: every flow goes to Edge1. Edge2's link carries no traffic.
+
+When a link or router fails:
+
+- Edge1's link goes down. The distance-1 route is withdrawn. The core installs the distance-5 route, and all traffic moves to Edge2.
+- When Edge1 returns, the distance-1 route wins again and traffic moves back.
+
+How to test: ping the Internet target from a test host, disconnect the Edge1 link, and watch for the number of lost pings before it recovers. Reconnect and confirm the path moves back.
+
+Trade-offs:
+
+- Predictable and easy to demonstrate, so troubleshooting is simple.
+- The Edge2 link and router sit idle. It does not meet the "share the load" idea for this path. If your design requires use of redundant links where possible, state why you accepted this.
+- The core must detect the failure. This works for a link that goes down. If Edge1 stops forwarding while the link stays up, the static route stays in the table. Add route tracking (IP SLA with `track`) or BFD, or accept the gap and document it.
