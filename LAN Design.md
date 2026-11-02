@@ -20,7 +20,7 @@ VLAN Groups: Student, Faculty, Guest-A, Guest-B, Server
 | -------- | ------- | ------- | ------- | ------- | ------ |
 | VLAN No. | 10      | 20      | 11      | 21      | 30     |
 
-## ACL list
+## Traffic Flow list
 
 | Source  | Destination | Source Port | Destination Port | Protocol | Permit/Deny |     |
 | ------- | ----------- | ----------- | ---------------- | -------- | ----------- | --- |
