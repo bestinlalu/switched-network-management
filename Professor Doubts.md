@@ -4,4 +4,6 @@ Ask professor:
 	1. What is that we should look at first?
 2. When handing-out switches, should we prioritize user allocation more than the architecture design?
 3. Where should ACLs be? (in a Core-Distribution and Collapsed)
-4. Cost-based static route or HSRP or ECMP?
+4. Cost-based static route or HSRP or ECMP? 
+	1. Core
+	2. Router
