@@ -16,7 +16,7 @@ Security:
 
 Scalability:
 1. [ ] Growth in student + faculty counts.
-	1. 
+	1. We leave enough 
 2. [ ] Route summarization - No more than one static route to each building.
 	1. 
 
