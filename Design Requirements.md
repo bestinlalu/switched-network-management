@@ -36,4 +36,4 @@ Bandwidth:
 DHCP and DNS:
 1. [ ] User devices must get their addresses automatically.
 2. [ ] The portal must be reachable by name.
-3. [ ] The portal is portal.ywd.com.>>>>>>> origin/main
+3. [ ] The portal is portal.ywd.com.
