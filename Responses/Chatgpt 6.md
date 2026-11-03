@@ -1,5 +1,5 @@
 
-## Phase 1 — Requirements and discovery
+### Phase 1 — Requirements and discovery
 
 1. Define business objectives and scope
 
