@@ -16,7 +16,7 @@ Security:
 
 Scalability:
 1. [ ] Growth in student + faculty counts.
-	1. We leave enough addresses while assigning ip's to incorporate new students and faculty. And also have extra ports on the access switches
+	1. We leave enough addresses while assigning ip's to incorporate new students and faculty. And also have extra ports on the access switches. We are also giving more than 5Mbps bandwidth per user so that 
 2. [ ] Route summarization - No more than one static route to each building.
 	1. 
 
