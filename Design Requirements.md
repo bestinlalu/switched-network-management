@@ -12,7 +12,7 @@ Security:
 2. [ ] Students and Faculty can reach the web app on TCP 80 and 443, and Internet.
 	1. <mark style="background:#fff88f">This is done by permitting transmission of packets using ACLs which checks if the source is either Students and Faculty and destination is the Server subnet with destination port as 80 or 443 and checking if the protocol is TCP.</mark>
 3. [ ] Students and faculty cannot reach each others' VLANs.
-	1. This is done by denying any inter-VLAN
+	1. This is done by denying any inter-VLAN communication between Student and Faculty using ACLs.
 
 Scalability:
 1. [ ] Growth in student + faculty counts.
