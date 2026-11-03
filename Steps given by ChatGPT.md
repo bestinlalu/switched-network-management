@@ -53,14 +53,9 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
         
 4. **Topological & Underlay Architecture Selection**
     
-      
     - **Purpose:** Choose the foundational switching hierarchy to support the required scale, redundancy, and convergence times.
         
-          
-        
     - **Decided/Produced:** The physical/logical topology diagram and Layer 2/Layer 3 boundary placement. This generally resolves into a 3-Tier Hierarchical model (Access-Distribution-Core), a Routed Access model, or a Clos Leaf-Spine architecture.
-        
-          
         
     - **Source:** Hierarchical 3-Tier and Routed Access come from the Cisco Campus LAN CVD (_Vendor Preference_). Clos Leaf-Spine comes from the Arista L3 Leaf-Spine Design Guide and Arista Universal Cloud Network (UCN) architecture (_Vendor Preference_, derived from **RFC 7938** for large-scale data centers).
         
