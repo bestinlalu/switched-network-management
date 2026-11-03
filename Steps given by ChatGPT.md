@@ -93,43 +93,24 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
         
 9. **Identity, Access Control & Perimeter Security Design**
     
-      
     - **Purpose:** Enforce zero-trust port admission, prevent L2 spoofing attacks at the access edge, and secure the network control and management planes.
-        
-          
         
     - **Decided/Produced:** 802.1X/MAB authentication workflows, RADIUS/TACACS+ integration, First-Hop Security profiles, infrastructure ACLs, and Control Plane Policing (CoPP) policies.
         
-          
-        
     - **Source:** **IEEE 802.1X** (Port-Based Network Access Control), **IEEE 802.1AE** (MACsec), **RFC 2865** (RADIUS), and **RFC 8907** (TACACS+). First-hop security features (DHCP Snooping, Dynamic ARP Inspection, IP Source Guard) and CoPP are industry-standard practices documented in Cisco Campus Security CVDs and **RFC 6192** (Protecting the Router Control Plane).
-        
-          
         
 10. **Design Validation, Lab Staging & Pre-Deployment Testing**
     
-      
     - **Purpose:** Verify that the Low-Level Design (LLD) and generated configurations meet functional, scale, and failover requirements before touching production.
-        
-          
         
     - **Decided/Produced:** A Test Plan, digital twin/virtual lab simulation (e.g., Containerlab, cEOS, CML), failure-injection test results (link pulls, supervisor failovers), and golden configuration templates.
         
-          
-        
     - **Source:** **RFC 2544** (Benchmarking Methodology for Network Interconnect Devices). Automated CI/CD network validation (using frameworks like Arista AVD — Architect, Validate, Deploy — with ANTA) is an Arista _Vendor Preference_; Cisco CVD validation methodology is a Cisco _Vendor Preference_.
-        
-          
         
 11. **Telemetry, Day-2 Operations & Lifecycle Management**
     
-      
     - **Purpose:** Maintain visibility, automate configuration compliance, and verify ongoing adherence to the original design SLOs.
         
-          
-        
     - **Decided/Produced:** Streaming telemetry pipelines, syslog/SNMP traps, out-of-band (OOB) management network architecture, configuration backup workflows, and OS upgrade procedures (ISSU/hitless upgrades).
-        
-          
         
     - **Source:** **RFC 6241** (NETCONF), **RFC 8040** (RESTCONF), **RFC 7950** (YANG data modeling), **RFC 7011** (IPFIX), **IEEE 802.1AB** (LLDP), and **gNMI/OpenConfig** (industry consortium specification, not a formal IETF RFC). Implementing these via Arista CloudVision or Cisco Catalyst Center are respective _Vendor Preferences_.
