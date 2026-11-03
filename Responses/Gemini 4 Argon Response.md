@@ -1,7 +1,4 @@
 
-
-## Gemini 4 Argon
-
 1. **Requirements Gathering & Constraint Analysis**
        
     - **Purpose:** Translate business objectives, application profiles, and facility constraints into technical targets (scale, availability, latency, budget, and compliance).
