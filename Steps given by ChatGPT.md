@@ -41,26 +41,15 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
                 
     - **Decided/Produced:** Traffic flow matrices, oversubscription ratios (commonly 20:1 access-to-distribution in campus, or 3:1 to 1:1 in leaf-spine), and failure domain boundaries.
         
-          
-        
     - **Source:** Cisco Campus LAN and Wireless LAN CVD (_Vendor Preference_); Arista Cloud Network Design Guide (_Vendor Preference_).
-        
-          
         
 3. **Physical Layer & Cabling Architecture**
     
-      
     - **Purpose:** Establish the physical media, optics, PoE delivery, and patch panel topology based on distance, throughput, and environmental constraints.
-        
-          
         
     - **Decided/Produced:** Cable plant specifications (Cat6A vs. OS2 single-mode vs. OM4 multi-mode fiber), transceiver matrices, rack/IDF layouts, and PoE power budgets.
         
-          
-        
     - **Source:** **TIA-568** and **ISO/IEC 11801** (structured cabling standards); **IEEE 802.3** series (802.3bt for Type 4 PoE, 802.3bs/cd for 50G/100G/200G/400G Ethernet).
-        
-          
         
 4. **Topological & Underlay Architecture Selection**
     
