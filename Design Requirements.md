@@ -16,7 +16,7 @@ Security:
 
 Scalability:
 1. [ ] Growth in student + faculty counts.
-	1. We leave enough addresses while assigning ip's to incorporate new students and faculty. And also have extra ports on the access switches. We are also giving more than 5Mbps bandwidth per user so that we can easily fit in more users in future. further we also have unused ports in core so we can scale in future.
+	1. We designed the network to absorb new students and faculty without a rebuild. Each subnet is larger than today's user count, and each building has a contiguous address block with unused space. New users and subnets fit inside that block, so the single static route to each building does not change. The access switches have unused ports for new users, and we allocated more than the 5 Mbps average per user (X Mbps), so the links can carry additional users. The core switches also have unused ports, so we can add access switches without changing the existing design. The first limit we expect to reach is __ (for example, the Student subnet at __ hosts), so we need more hardware at about __ users.
 2. [ ] Route summarization - No more than one static route to each building.
 	1. 
 
