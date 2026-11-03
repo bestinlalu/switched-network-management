@@ -1,1 +1,1 @@
-	1. This is done by permitting transmission of packets from Students and Faculty to the Server subnet and destination port 80 and 443 and checking ifthe protocol.
+	1. This is done by permitting transmission of packets from Students and Faculty to the Server subnet and destination port 80 and 443 and checking the protocol.
