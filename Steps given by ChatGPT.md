@@ -30,16 +30,10 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
 1. **Requirements Gathering & Constraint Analysis**
        
     - **Purpose:** Translate business objectives, application profiles, and facility constraints into technical targets (scale, availability, latency, budget, and compliance).
-        
-          
-        
+
     - **Decided/Produced:** A Requirements Specification Document and Service Level Objectives (SLOs) detailing endpoint counts, bandwidth per user, high-availability tiers (e.g., 99.99% uptime), PoE budgets, and physical security mandates.
         
-          
-        
     - **Source:** Cisco Lifecycle Services (PPDIOO — Prepare/Plan phases) and the Cisco CCDE (Certified Design Expert) framework (_Vendor Preference/Methodology_).
-        
-          
         
 2. **Traffic Flow, Application & Failure Domain Mapping**
     
