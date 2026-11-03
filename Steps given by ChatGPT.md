@@ -79,30 +79,17 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
     
     - **Purpose:** Decouple logical network policy and tenant/group isolation from the physical underlay topology.
         
-          
-        
     - **Decided/Produced:** VRF (Virtual Routing and Forwarding) instances, VXLAN VNI (VXLAN Network Identifier) mappings, anycast gateway definitions, and micro-segmentation policy matrices.
-        
-          
         
     - **Source:** **RFC 7348** (VXLAN) and **RFC 7432** / **RFC 8365** (BGP EVPN control plane for VXLAN), heavily emphasized in Arista EVPN Deployment Guides (_Vendor Preference_ for standard EVPN). Cisco Software-Defined Access (SD-Access), which pairs a LISP control plane (**RFC 6830**) with VXLAN data plane and Scalable Group Tags (SGTs/TrustSec), is a proprietary _Vendor Preference_ documented in Cisco SD-Access CVDs.
         
-          
-        
 8. **Quality of Service (QoS) & Traffic Management**
     
-      
     - **Purpose:** Protect latency- and jitter-sensitive traffic (voice, real-time video, storage, control plane) during periods of link congestion.
-        
-          
         
     - **Decided/Produced:** Trust boundaries (port vs. DSCP marking), classification and marking rules, policing thresholds, and hardware queuing/scheduling allocations (e.g., strict priority vs. Weighted Round Robin / CBWFQ).
         
-          
-        
     - **Source:** **RFC 2474** (DiffServ field), **RFC 4594** (Configuration Guidelines for DiffServ Service Classes), and **IEEE 802.1p** (L2 CoS). The specific 4-class, 8-class, or 12-class queuing models are _Vendor Preferences_ detailed in the Cisco Enterprise QoS CVD.
-        
-          
         
 9. **Identity, Access Control & Perimeter Security Design**
     
