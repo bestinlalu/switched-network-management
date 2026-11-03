@@ -1,6 +1,6 @@
 Performance:
 1. [ ] Server room has at least 4 Gbps of capacity.
-	1. 
+	1. We will connect at least 4 links from
 2. [ ] Redundant links should share the load.
 	1. 
 3. [ ] Reduce or eliminate unnecessary traffic detours.
