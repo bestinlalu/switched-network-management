@@ -10,7 +10,7 @@ Security:
 1. [ ] Guest and IoT can reach only the DHCP, DNS servers and the Internet.
 	1. 
 2. [ ] Students and Faculty can reach the web app on TCP 80 and 443, and Internet.
-	1. 
+	1. This is done by permitting transmission of packets
 3. [ ] Students and faculty cannot reach each others' VLANs.
 	1. 
 
