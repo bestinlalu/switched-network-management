@@ -1,5 +1,5 @@
 
-## Phase 1 — Requirements and discovery
+### Phase 1 — Requirements and discovery
 
 1. Define business objectives and scope
 
@@ -45,7 +45,7 @@
     Design Guide+1
     
 
-## Phase 2 — Architecture and logical design
+### Phase 2 — Architecture and logical design
 
 5. Select the overall network architecture
 
