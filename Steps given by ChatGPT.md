@@ -28,8 +28,7 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
 ## Gemini
 
 1. **Requirements Gathering & Constraint Analysis**
-    
-      
+       
     - **Purpose:** Translate business objectives, application profiles, and facility constraints into technical targets (scale, availability, latency, budget, and compliance).
         
           
