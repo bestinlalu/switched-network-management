@@ -157,7 +157,7 @@
     RFC Editor+1
     
 
-## Phase 3 — Detailed engineering and validation
+### Phase 3 — Detailed engineering and validation
 
 15. Design management and operational visibility
 
@@ -192,7 +192,7 @@
     Cisco+1
     
 
-## Phase 4 — Deployment and operations
+### Phase 4 — Deployment and operations
 
 18. Plan and execute the production deployment
 
