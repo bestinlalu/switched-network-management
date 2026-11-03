@@ -25,7 +25,7 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
 
 
 
-## Gemini
+## Gemini 4 Argon
 
 1. **Requirements Gathering & Constraint Analysis**
        
