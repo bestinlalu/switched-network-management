@@ -6,3 +6,4 @@ Ask professor:
 3. Where should ACLs be? (in a Core-Distribution and Collapsed)
 4. Cost-based static route or HSRP or ECMP? 
 	1. Router
+5. Can Guest A & B talk to each other?
