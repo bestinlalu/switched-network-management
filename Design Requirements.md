@@ -1,5 +1,4 @@
 
-	1. This is done by permitting transmission of packets from Students and Faculty to the Server subnet and destination port 80 and 443 and checking ifthe protocol.
 Performance:
 1. [ ] Server room has at least 4 Gbps of capacity.
 	- <mark style="background:#fff88f">We will connect at least 4 links from the access switch of the server room. Each link has maximum capacity of 1 Gbps. All the links will be aggregated as one virtual port channel (Etherchannel).</mark>
