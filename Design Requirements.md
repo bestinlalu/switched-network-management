@@ -16,7 +16,7 @@ Security:
 
 Scalability:
 1. [ ] Growth in student + faculty counts.
-	1. We will leave some ip addresses unused
+	1. 
 2. [ ] Route summarization - No more than one static route to each building.
 	1. 
 
