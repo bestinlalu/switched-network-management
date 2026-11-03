@@ -139,6 +139,6 @@ When a link or router fails:
 
 ## Logical Design of network
 
-![[Steps given by ChatGPT-1793662398642.webp|585]]
+![[LAN Design-1793662398642.webp|585]]
 
 ![[LAN Design-1793662428092.webp|587]]
