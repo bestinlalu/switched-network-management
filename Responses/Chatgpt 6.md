@@ -66,8 +66,6 @@
     
 - Basis: Cisco CVD access/distribution/core platform guidance; IEEE 802.3 for Ethernet physical/link specifications. Hardware selection is a design decision, not prescribed by IEEE.
     
-    Cisco
-    
 
 7. Design Layer 2 connectivity and fault domains
 
@@ -76,8 +74,6 @@
 - Output: VLAN plan, trunk/access links, VLAN scope, L2/L3 boundaries, STP/MSTP approach where applicable, and link aggregation.
     
 - Basis: IEEE 802.1Q-2022 (bridging/VLANs), IEEE 802.1AX-2020 (link aggregation); Cisco CVD guidance on minimizing Layer 2 fault domains.
-    
-    Bridges and Bridged Networks |+2
     
 
 8. Develop the IP addressing plan
