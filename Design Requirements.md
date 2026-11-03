@@ -4,7 +4,7 @@ Performance:
 2. [ ] Redundant links should share the load.
 	- <mark style="background:#fff88f">Using Etherchannel (LACP) and vPC, we will distribute the load between links. This is used between Buildings, Server Room and core switches.</mark>
 3. [ ] Reduce or eliminate unnecessary traffic detours.
-	1. For this, unauthorized 
+	1. For this, unauthorized transmission of packets which
 
 Security:
 1. [ ] Guest and IoT can reach only the DHCP, DNS servers and the Internet.
