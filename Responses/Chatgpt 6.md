@@ -84,8 +84,6 @@
     
 - Basis: RFC 1918 (private IPv4 space), RFC 4632 (CIDR/aggregation), RFC 4291 (IPv6 addressing). Exact subnet sizes and allocation strategies remain engineering choices.
     
-    RFC Editor+2
-    
 
 9. Design Layer 3 routing and gateway placement
 
@@ -94,8 +92,6 @@
 - Output: Routing protocol selection, routing adjacencies, gateway locations, default-route strategy, ECMP, route summarization, and route redistribution policies.
     
 - Basis: RFC 2328 (OSPFv2), RFC 4271 (BGP), RFC 9568 (VRRPv3); Cisco routed-campus guidance and Arista routed-underlay design. Protocol selection is not mandated by these standards.
-    
-    RFC Editor+2
     
 
 10. Design segmentation and inter-segment policy
@@ -106,8 +102,6 @@
     
 - Basis: IEEE 802.1Q (VLANs), RFC 8365 (EVPN overlays), RFC 7348 (VXLAN, Informational RFC); Arista campus segmentation guidance. VRF/overlay selection and policy placement are design choices.
     
-    Bridges and Bridged Networks |+3
-    
 
 11. Design security controls
 
@@ -116,8 +110,6 @@
 - Output: Network access authentication, authorization policies, management access restrictions, port security, DHCP/ARP protections, and security monitoring requirements.
     
 - Basis: IEEE 802.1X (port-based network access control); Cisco LAN Security Best Practices; Arista Campus Network and Security Design Guide. Cisco ISE, Arista AGNI, TrustSec, and MSS are vendor solutions, not mandatory standards.
-    
-    1.ieee802.org+2
     
 
 12. Engineer redundancy and failure recovery
@@ -128,8 +120,6 @@
     
 - Basis: Cisco CVD LAN High Availability; Arista leaf-spine/ECMP guidance; IEEE 802.1AX and RFC 9568. Cisco StackWise/HSRP and Arista MLAG are vendor-specific implementations or features.
     
-    Cisco+3
-    
 
 13. Design infrastructure and access services
 
@@ -139,8 +129,6 @@
     
 - Basis: RFC 2131 (DHCPv4); Cisco Campus LAN and Wireless LAN Solution Design Guide; Arista Campus Network and Security Design Guide.
     
-    RFC Editor+2
-    
 
 14. Design Quality of Service
 
@@ -149,8 +137,6 @@
 - Output: Traffic classes, marking/trust boundaries, queue allocation, scheduling, policing, and congestion-management policies.
     
 - Basis: RFC 2475 (DiffServ architecture, Informational RFC); Cisco CVD Campus QoS recommendations. Queue counts and scheduler choices are implementation-specific.
-    
-    RFC Editor+1
     
 
 ### Phase 3 — Detailed engineering and validation
@@ -163,8 +149,6 @@
     
 - Basis: IEEE 802.1AB (LLDP), RFC 6241 (NETCONF), RFC 8040 (RESTCONF); Cisco CVD operations guidance and Arista CloudVision practices. Management platform choice is a vendor/operational preference.
     
-    IEEE 802+3
-    
 
 16. Produce and review the detailed design
 
@@ -174,8 +158,6 @@
     
 - Basis: Cisco CVD design/deployment structure and Arista architecture/design deliverables. HLD/LLD documentation is an engineering practice, not an IEEE-defined procedure.
     
-    Arista+1
-    
 
 17. Validate the design before production
 
@@ -184,8 +166,6 @@
 - Output: Test plan, lab or pilot results, connectivity/security test results, performance measurements, failover tests, and corrected configurations.
     
 - Basis: Cisco Validated Design methodology and Arista predeployment validation practices. There is no single IEEE/IETF standard that prescribes this entire acceptance-test sequence.
-    
-    Cisco+1
     
 
 ### Phase 4 — Deployment and operations
@@ -198,8 +178,6 @@
     
 - Basis: Cisco CVD deployment guidance and Arista controlled deployment methodology. Operational practice, not a protocol standard.
     
-    Cisco+1
-    
 
 19. Perform acceptance testing and handover
 
@@ -208,9 +186,7 @@
 - Output: As-built diagrams, final configurations, test evidence, documented exceptions, operational runbooks, and formal acceptance.
     
 - Basis: Cisco CVD design/deploy/operate lifecycle and Arista deployment validation/knowledge-transfer guidance. Engineering governance practice.
-    
-    Cisco+1
-    
+
 
 20. Operate, monitor, and continuously improve
 
