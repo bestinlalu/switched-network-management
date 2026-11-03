@@ -59,41 +59,24 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
         
     - **Source:** Hierarchical 3-Tier and Routed Access come from the Cisco Campus LAN CVD (_Vendor Preference_). Clos Leaf-Spine comes from the Arista L3 Leaf-Spine Design Guide and Arista Universal Cloud Network (UCN) architecture (_Vendor Preference_, derived from **RFC 7938** for large-scale data centers).
         
-          
-        
 5. **Layer 2 Switching & First-Hop Redundancy Design**
     
-      
     - **Purpose:** Ensure loop-free Layer 2 forwarding, maximize link utilization from the access layer, and provide resilient default gateways for endpoints.
-        
-          
         
     - **Decided/Produced:** Link aggregation design, Spanning Tree root bridge placement and edge-port protections, multi-chassis link aggregation (if L2 extends to distribution/leaf), and FHRP selection.
         
-          
-        
     - **Source:** **IEEE 802.1Q** (VLAN tagging), **IEEE 802.1D/w/s** (STP/RSTP/MSTP), **IEEE 802.1AX / 802.3ad** (LACP), and **RFC 5798** (VRRPv3). HSRP (**RFC 2281**, informational) and StackWise Virtual / VSS are _Vendor Preferences_ (Cisco); MLAG is a _Vendor Preference_ (Arista).
-        
-          
         
 6. **Layer 3 Routing & Underlay Control Plane Design**
     
-      
     - **Purpose:** Provide fast-converging, deterministic ECMP (Equal-Cost Multi-Path) routing across the core or spine layer.
-        
-          
         
     - **Decided/Produced:** IPv4/IPv6 addressing and summarization schemes, IGP or BGP protocol selection, BFD (Bidirectional Forwarding Detection) timers, and ECMP hashing strategies.
         
-          
-        
     - **Source:** **RFC 2328** (OSPFv2), **RFC 5340** (OSPFv3), **ISO/IEC 10589** (IS-IS), **RFC 4271** (BGP-4), and **RFC 5880** (BFD). Using eBGP as the sole underlay/overlay protocol in leaf-spine topologies is a strong Arista UCN _Vendor Preference_ (backed by **RFC 7938**), whereas Cisco Campus CVDs traditionally favor IS-IS or OSPF as the fabric underlay (_Vendor Preference_).
-        
-          
         
 7. **Network Segmentation & Overlay Fabric Design**
     
-      
     - **Purpose:** Decouple logical network policy and tenant/group isolation from the physical underlay topology.
         
           
