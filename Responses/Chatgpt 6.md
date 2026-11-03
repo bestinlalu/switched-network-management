@@ -45,7 +45,7 @@
     Design Guide+1
     
 
-## Phase 2 — Architecture and logical design
+### Phase 2 — Architecture and logical design
 
 5. Select the overall network architecture
 
