@@ -1,6 +1,6 @@
 Performance:
 1. [ ] Server room has at least 4 Gbps of capacity.
-	1. We will connect at least 4 links from the access switch of the server room. Each link 
+	1. We will connect at least 4 links from the access switch of the server room. Each link has maximum capacity of 1 Gbps. 
 2. [ ] Redundant links should share the load.
 	1. 
 3. [ ] Reduce or eliminate unnecessary traffic detours.
