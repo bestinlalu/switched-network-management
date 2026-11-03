@@ -22,3 +22,7 @@ Step 9. Write the tests. Write at least one test for each requirement. Example: 
 
 Step 10. Write the documents and plan for growth. Write the diagram, the address plan, and the rules. Write all assumptions. Calculate when the design needs more hardware.
 
+
+
+
+## Gemini
