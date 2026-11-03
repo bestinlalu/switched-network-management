@@ -37,11 +37,8 @@ Step 10. Write the documents and plan for growth. Write the diagram, the address
         
 2. **Traffic Flow, Application & Failure Domain Mapping**
     
-      
     - **Purpose:** Determine whether traffic is predominantly North-South (client-to-WAN/core) or East-West (leaf-to-leaf/server-to-server) and define acceptable blast radii during hardware or link failures.
-        
-          
-        
+                
     - **Decided/Produced:** Traffic flow matrices, oversubscription ratios (commonly 20:1 access-to-distribution in campus, or 3:1 to 1:1 in leaf-spine), and failure domain boundaries.
         
           
