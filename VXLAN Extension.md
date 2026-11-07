@@ -15,4 +15,4 @@ Similar thing happens on C2 and error-disables its port connected to A-SW1. Esse
 
 ![[VXLAN Extension-1794026959629.webp]]
 
-Since C2 is 
+Since C2 is VTEP of the remote
