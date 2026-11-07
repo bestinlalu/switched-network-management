@@ -7,4 +7,4 @@ Here we configured A-SW1 -> C1, A-SW1 -> C2, B-SW1 -> C1, B-SW1 -> C2 as trunks 
 VTEPs: C1, C2
 C1 -> C2 link is layer 3.
 
-But the problem was s A-SW1
+But the problem was A-SW1 sends packet to C1. C1 already has a trunk link to 
