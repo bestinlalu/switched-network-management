@@ -15,4 +15,8 @@ Similar thing happens on C2 and error-disables its port connected to A-SW1. Esse
 
 ![[VXLAN Extension-1794026959629.webp]]
 
-Since C2 is remote VTEP for A-SW1 and C1 is remote VTEP for B-SW1. So the links trunks
+Since C2 is remote VTEP for A-SW1 and C1 is remote VTEP for B-SW1. So the links connecting them should not act as trunk links for VLAN 100.
+
+Now everything works.
+
+## Wireshark Captures
