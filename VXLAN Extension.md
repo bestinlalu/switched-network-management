@@ -1,3 +1,3 @@
 ![[VXLAN Extension-1794026325966.webp]]
 
-Here 
+Our previous configuration
