@@ -1,4 +1,4 @@
-![[VXLAN Extension-1794026325966.webp]]
+![[VXLAN Extension-1794026325966.webp|538]]
 
 
 New VLAN for LabX: 100
@@ -15,7 +15,7 @@ Similar thing happens on C2 and error-disables its port connected to A-SW1. Esse
 
 ## Solution
 
-![[VXLAN Extension-1794026959629.webp]]
+![[VXLAN Extension-1794026959629.webp|586]]
 
 Since C2 is remote VTEP for A-SW1 and C1 is remote VTEP for B-SW1. So the links connecting them should not act as trunk links for VLAN 100.
 
@@ -24,10 +24,10 @@ Now everything works.
 ## Wireshark Captures
 
 ### Host to A-SW1
-![[VXLAN Extension-1794027140787.webp]]
+![[VXLAN Extension-1794027140787.webp|538]]
 
 ### C1 to C2
-![[VXLAN Extension-1794027168199.webp]]
+![[VXLAN Extension-1794027168199.webp|547]]
 
 ### C2 to B-SW1
 ![[VXLAN Extension-1794027193158.webp]]
