@@ -30,4 +30,4 @@ Now everything works.
 ![[VXLAN Extension-1794027168199.webp|547]]
 
 ### C2 to B-SW1
-![[VXLAN Extension-1794027193158.webp|553]]
+<p align="left"></p>![[VXLAN Extension-1794027193158.webp|553]]
