@@ -23,3 +23,5 @@ Now everything works.
 
 ### Host to A-SW1
 ![[VXLAN Extension-1794027140787.webp]]
+
+### C1 to C2
