@@ -20,3 +20,5 @@ Since C2 is remote VTEP for A-SW1 and C1 is remote VTEP for B-SW1. So the links 
 Now everything works.
 
 ## Wireshark Captures
+
+Host to A-SW1
