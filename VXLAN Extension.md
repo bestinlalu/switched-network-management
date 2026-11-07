@@ -25,3 +25,6 @@ Now everything works.
 ![[VXLAN Extension-1794027140787.webp]]
 
 ### C1 to C2
+![[VXLAN Extension-1794027168199.webp]]
+
+### C2 to B-SW1
