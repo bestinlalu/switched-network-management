@@ -34,7 +34,7 @@ Reliability/ High availability:
 Bandwidth:
 1. [ ] Students - About 5 Mbps average per user.
 	1. Total number of students = 120
-	   Minimum capacity required
+	   Minimum capacity required = 120 
 	   Total number of links from the access switches to cores = 6
 2. [ ] Faculty and staff - About 5 Mbps average per user.
 	1. 
