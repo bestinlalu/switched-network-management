@@ -27,6 +27,7 @@ Reliability/ High availability:
 2. [ ] Recovery from failures should be fast.
 	1. HSRP on the core switches makes on core as active and one as backup. The hello messages between them are transmitted through the ether channel separate from the links towards the access or core switches.
 	2. If one of the edge router goes down, both the cores can transmit through the other one. 
+	3. If the upstream links to the routers from one core goes down
 
 Bandwidth:
 1. [ ] Students - About 5 Mbps average per user.
