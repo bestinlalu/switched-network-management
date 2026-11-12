@@ -51,6 +51,7 @@ DHCP and DNS:
 	1. The DHCP server is running in both of the edge routers. One router has pool of IP addresses to distribute to the entire user group. This is incase one of the router is unreachable because the router went down or the links to one router is down. 
 	2. Discover - The user group’s device has no address, so it broadcasts a DHCPDISCOVER on its VLAN. The building access switch's PACL allows this DHCP traffic, and the frame goes up the prot-channel to one of the cores.
 	3. **Relay.** The core’s VLAN interface is the relay agent. It turns the broadcast into unicast and sends it to four relay addresses R1’s two interfaces and R2’s two interfaces. It stamps its own SVI address as the `giaddr` (gateway address), which tells the router which subnet and pool to use. Both cores can relay the same discover, because broadcasts also cross the peer-link and HSRP doesn’t matter for relaying.
+	4. 
        
 2. [ ] The portal must be reachable by name.
 3. [ ] The portal is portal.ywd.com.
