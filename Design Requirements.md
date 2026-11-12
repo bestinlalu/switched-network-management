@@ -63,3 +63,4 @@ DHCP and DNS:
 	6. The router answers with 10.20.8.10.
 	7. The browser connects to 10.20.8.10 on TCP 80 or 443. The PACL permits that for students and faculty, and the core routes it to the server VLAN.
 3. [ ] The portal is portal.ywd.com
+	1. Both routers have ip host portal.ywd.com 10.20.8.10
