@@ -44,7 +44,7 @@ Bandwidth:
 	   One link has a bandwidth of 1Gbps. This condition is inherently met.
 3. [ ] Server - Student portal must serve up to 400 concurrent users at about 10 Mbps each.
 	1. 400 users at 10 Mbps = 4 Gbps
-	   We have 8 total links connected from the server room towards the server-side access switches. Assuming that the server is running on more than 
+	   We have 8 total links connected from the server room towards the server-side access switches. Assuming that the server is running on more than 4 servers, this condition is met.
 
 DHCP and DNS:
 1. [ ] User devices must get their addresses automatically.
