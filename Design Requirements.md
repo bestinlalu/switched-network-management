@@ -18,11 +18,11 @@ Scalability:
 1. [ ] Growth in student + faculty counts.
 	1. <mark style="background:#fff88f">We designed the network to absorb new students and faculty without a rebuild. Each subnet is larger than today's user count, and each building has a contiguous address block with unused space. New users and subnets fit inside that block, so the single static route to each building does not change. The access switches have unused ports for new users, and we allocated more than the 5 Mbps average per user (X Mbps), so the links can carry additional users. The core switches also have unused ports, so we can add access switches without changing the existing design. </mark>
 2. [ ] Route summarization - No more than one static route to each building.
-	1. There is only one route per building at the edge router. The Guest and the corresponding student/faculty group present in a building have contiguous ip subnetsMore details are 
+	1. There is only one route per building at the edge router. The Guest and the corresponding student/faculty group present in a building have contiguous ip subnets. So route summarization is possible. More details are present in Section 4.
 
 Reliability/ High availability:
 1. [ ] Single point of failure should not cut any user group off from the Server Room or the Internet.
-	1. 
+	1. We are providing redundant links everywhere. From the access switches on a building
 2. [ ] Recovery from failures should be fast.
 	1. 
 
