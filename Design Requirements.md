@@ -54,6 +54,5 @@ DHCP and DNS:
 	4. **Offer.** Each router that is reachable answers from its own range.
 	5. **Request and ACK.** The device takes the first offer, broadcasts a DHCPREQUEST naming that router, and gets the ACK. The other offer expires unused.
 	6. **What the device receives.** An IP address, the default gateway (the HSRP VIP 10.20.0.1) and the DNS servers 10.20.12.101 and 10.20.12.102.
-       
 2. [ ] The portal must be reachable by name.
 3. [ ] The portal is portal.ywd.com.
