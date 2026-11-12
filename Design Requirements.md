@@ -38,7 +38,10 @@ Bandwidth:
 	   Total number of links from the access switches to cores = 6
 	   One link has a bandwidth of 1Gbps. This condition is inherently met.
 2. [ ] Faculty and staff - About 5 Mbps average per user.
-	1. 
+	1. Total number of students = 60
+	   Minimum capacity required = 120 x 5 Mbps = 600 Mbps
+	   Total number of links from the access switches to cores = 6
+	   One link has a bandwidth of 1Gbps. This condition is inherently met.
 3. [ ] Server - Student portal must serve up to 200 concurrent users at about 10 Mbps each.
 	1. 
 
