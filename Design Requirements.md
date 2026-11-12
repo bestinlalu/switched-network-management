@@ -22,7 +22,7 @@ Scalability:
 
 Reliability/ High availability:
 1. [ ] Single point of failure should not cut any user group off from the Server Room or the Internet.
-	1. We are providing redundant links everywhere. From the access switches on a building
+	1. We are providing redundant links everywhere. From the access switches in a building, there are two connections towards 
 2. [ ] Recovery from failures should be fast.
 	1. 
 
