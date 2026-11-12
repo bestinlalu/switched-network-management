@@ -8,7 +8,7 @@ Performance:
 
 Security:
 1. [ ] Guest and IoT can reach only the DHCP, DNS servers and the Internet.
-	- <mark style="background:#fff88f"><font color="#000000">We will use ACLs to drop packets from Guest and IoT devices based on the destination IP address. If the destination IP address is in the Student, Faculty, or Server VLAN/subnet, the access switch will drop the traffic.</font></mark>
+	- <mark style="background:#fff88f"><font color="#000000">We will use ACLs to drop packets from Guest and IoT devices based on the source and destination IP address. If the destination IP address is in the Student, Faculty, or Server VLAN/subnet, the access switch will drop the traffic.</font></mark>
 2. [ ] Students and Faculty can reach the web app on TCP 80 and 443, and Internet.
 	- <mark style="background:#fff88f">This is done by permitting transmission of packets using ACLs which checks if the source is either Students and Faculty and destination is the Server subnet with destination port as 80 or 443 and checking if the protocol is TCP.</mark>
 3. [ ] Students and faculty cannot reach each others' VLANs.
