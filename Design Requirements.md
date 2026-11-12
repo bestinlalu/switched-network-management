@@ -33,7 +33,8 @@ Reliability/ High availability:
 
 Bandwidth:
 1. [ ] Students - About 5 Mbps average per user.
-	1. 
+	1. Total number of students = 120
+	   Total number of links from the 
 2. [ ] Faculty and staff - About 5 Mbps average per user.
 	1. 
 3. [ ] Server - Student portal must serve up to 200 concurrent users at about 10 Mbps each.
