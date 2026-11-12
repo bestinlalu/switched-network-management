@@ -53,6 +53,7 @@ DHCP and DNS:
 	3. **Relay.** The core’s VLAN interface is the relay agent. It turns the broadcast into unicast and sends it to four relay addresses R1’s two interfaces and R2’s two interfaces. It stamps its own SVI address as the `giaddr` (gateway address), which tells the router which subnet and pool to use. Both cores can relay the same discover, because broadcasts also cross the peer-link and HSRP doesn’t matter for relaying.
 	4. **Offer.** Each router that is reachable answers from its own range.
 	5. **Request and ACK.** The device takes the first offer, broadcasts a DHCPREQUEST naming that router, and gets the ACK. The other offer expires unused.
+	6. **What the device receives.** An IP address, the default gateway (the HSRP VIP 10.20.0.1) and the DNS servers 10.20.12.101 and 10.20.12.102.
        
 2. [ ] The portal must be reachable by name.
 3. [ ] The portal is portal.ywd.com.
