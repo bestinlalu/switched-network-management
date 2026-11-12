@@ -49,7 +49,7 @@ Bandwidth:
 DHCP and DNS:
 1. [ ] User devices must get their addresses automatically.
 	1. [ ] The DHCP server is running in both of the edge routers. One router has pool of IP addresses to distribute to the entire user group. This is incase one of the router is unreachable because the router went down or the links to one router is down. 
-	2. [ ] Discover - 
+	2. [ ] Discover - The user group’s device has no address, so it broadcasts a DHCPDISCOVER on VLAN 10. A-SW1’s PACL allows this DHCP traffic, and the frame goes up Po1 to one of the cores.
        
 2. [ ] The portal must be reachable by name.
 3. [ ] The portal is portal.ywd.com.
