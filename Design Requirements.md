@@ -47,8 +47,7 @@ Bandwidth:
 	   We have 8 total links connected from the server room towards the server-side access switches. Assuming that the server is running on more than 4 servers, this condition is met.
 
 DHCP and DNS:
-1. [ ] User devices must get their addresses automatically.
-       The DHCP server is running in both of the edge routers. One router has pool of IP addresses to distribute to the entire user group. This is incase one of the router is unreachable because the router went down or the links to one router is down. 
+1. [ ] User devices must get their addresses automatically.The DHCP server is running in both of the edge routers. One router has pool of IP addresses to distribute to the entire user group. This is incase one of the router is unreachable because the router went down or the links to one router is down. 
        
 2. [ ] The portal must be reachable by name.
 3. [ ] The portal is portal.ywd.com.
