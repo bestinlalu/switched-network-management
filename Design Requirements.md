@@ -24,6 +24,7 @@ Reliability/ High availability:
 1. [ ] Single point of failure should not cut any user group off from the Server Room or the Internet.
 	1. We are providing redundant links everywhere. From the access switches in a building, there are total of two connections towards the core switches. So even if one link fails, the other link can route the traffic.
 	2. The server room has total of eight different links towards the core switches. Four to C1 and four to C2. This is to provide redundancy if any link goes down, it is able to manage the connection. If an access/core switch is down or all the four links between an access or core is down, the other four links can still provide availability bundled with HSRP and also provide the bandwidth since there still are 4 links present.
+	3. There are two links from each core which goes to the two different routers providing redundancy.
 2. [ ] Recovery from failures should be fast.
 	1. HSRP on the core switches makes on core as active and one as backup. The hello messages between them are transmitted through the ether channel separate from the links towards the access or core switches.
 	2. If one of the edge router goes down, both the cores can transmit through the other one. 
