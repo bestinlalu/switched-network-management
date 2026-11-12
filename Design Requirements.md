@@ -59,7 +59,7 @@ DHCP and DNS:
 	2. **DHCP gives those two addresses to every client** as DNS servers, so a device has a primary and a backup. If R1 is down, it asks R2.
 	3. **The PACL allows DNS** to 10.20.12.101 and .102, so students and faculty can query. The cores have `/32` routes to both loopbacks through both links of each router.
 	4. The user’s browser asks for `portal.ywd.com` and sends a DNS query to 10.20.12.101 (or .102).
-	5. The query crosses A-SW1’s PACL, goes up to a core, and is routed to the router’s loopback.
-3. The router answers with 10.20.8.10.
-4. The browser connects to 10.20.8.10 on TCP 80 or 443. The PACL permits that for students and faculty, and the core routes it to the server VLAN.
-5. [ ] The portal is portal.ywd.com.
+	5. The query crosses access switch’s PACL, goes up to a core, and is routed to the router’s loopback.
+	6. The router answers with 10.20.8.10.
+	7. The browser connects to 10.20.8.10 on TCP 80 or 443. The PACL permits that for students and faculty, and the core routes it to the server VLAN.
+3. [ ] The portal is portal.ywd.com.
