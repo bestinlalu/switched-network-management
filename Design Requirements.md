@@ -62,4 +62,4 @@ DHCP and DNS:
 	5. The query crosses access switch’s PACL, goes up to a core, and is routed to the router’s loopback.
 	6. The router answers with 10.20.8.10.
 	7. The browser connects to 10.20.8.10 on TCP 80 or 443. The PACL permits that for students and faculty, and the core routes it to the server VLAN.
-3. [ ] The portal is portal.ywd.com.
+3. [ ] The portal is portal.ywd.com
