@@ -79,7 +79,7 @@ Connectivity from:
 # **Step 3.** Ask the failure question.
 
 ![[Pasted image 20261031165018.png|rotate90|428]]
-
+![[LAN Design-1794513482888.webp]]
 # **Step 4.** Choose the structure.
 
 ![[LAN Design-1793481305042.webp|401]]  ![[LAN Design-1793481602082.webp|408]] 
