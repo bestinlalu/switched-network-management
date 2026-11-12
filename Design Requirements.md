@@ -42,8 +42,9 @@ Bandwidth:
 	   Minimum capacity required = 60 x 5 Mbps = 300 Mbps
 	   Total number of links from the access switches to cores = 6
 	   One link has a bandwidth of 1Gbps. This condition is inherently met.
-3. [ ] Server - Student portal must serve up to 200 concurrent users at about 10 Mbps each.
-	1. 
+3. [ ] Server - Student portal must serve up to 400 concurrent users at about 10 Mbps each.
+	1. 400 users at 10 Mbps = 4 Gbps
+	   We have 8 total links connected from the server room towards the server-side access switches. 
 
 DHCP and DNS:
 1. [ ] User devices must get their addresses automatically.
