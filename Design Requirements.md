@@ -55,7 +55,7 @@ DHCP and DNS:
 	5. **Request and ACK.** The device takes the first offer, broadcasts a DHCPREQUEST naming that router, and gets the ACK. The other offer expires unused.
 	6. **What the device receives.** An IP address, the default gateway (the HSRP VIP 10.20.0.1) and the DNS servers 10.20.12.101 and 10.20.12.102.
 2. [ ] The portal must be reachable by name.
-	1. **R1 and R2 are both DNS servers,** with `ip dns server` and the record `ip host portal.ywd.com 10.20.8.10`. R1 listens on 10.20.12.101 and R2 on 10.20.12.102 (their loopbacks).
+	1. **R1 and R2 are both DNS servers,** with ip dns server and the record ip host portal.ywd.com 10.20.8.10. R1 listens on 10.20.12.101 and R2 on 10.20.12.102 (their loopbacks).
 	2. **DHCP gives those two addresses to every client** as DNS servers, so a device has a primary and a backup. If R1 is down, it asks R2.
 	3. **The PACL allows DNS** to 10.20.12.101 and .102, so students and faculty can query. The cores have /32 routes to both loopbacks through both links of each router.
 	4. The user’s browser asks for portal.ywd.com and sends a DNS query to 10.20.12.101 (or .102).
