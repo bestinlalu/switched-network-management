@@ -1,6 +1,6 @@
 Performance:
 1. [ ] Server room has at least 4 Gbps of capacity.
-	- <mark style="background:#fff88f">We will connect at least 4 links from the access switch of the server room. Each link has maximum capacity of 1 Gbps. All the links will be aggregated as one virtual port channel (Etherchannel).</mark>
+	- <mark style="background:#fff88f">We will connect at least 4 links from the access switch of the server room. Each link has maximum capacity of 1 Gbps. All the links from one server side access switch will be aggregated as one virtual port channel (Etherchannel).</mark>
 2. [ ] Redundant links should share the load.
 	- <mark style="background:#fff88f">Using Etherchannel (LACP) and vPC, we will distribute the load between links. This is used between Buildings, Server Room and core switches.</mark>
 3. [ ] Reduce or eliminate unnecessary traffic detours.
